@@ -504,11 +504,7 @@ var data = {
 				[24, 23, 12],
 				[14, 16, 16],
 				[7, 7.5, 11]
-			],
-	startPoint: {
-		x: 0
-	}
-	
+			]	
 };
 var options = {
 	style:	{
