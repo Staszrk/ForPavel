@@ -320,13 +320,6 @@ var Chart = function(id)
 					});
 					scale += options.scale.step.size;
 				}
-				//Заполняем колонки данными (кроме точек)
-				datas.columns.push({
-					start: !isNullable(datas.columns[datas.columns.length - 1]) ? 0 : datas.columns[datas.columns.length - 1].end,
-					end: Axis.x(scale),
-					title: datas.points.global.array.x[block],
-					points: []
-				});
 				scale += options.scale.step.size;
 			}
 			
