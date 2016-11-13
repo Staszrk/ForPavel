@@ -511,7 +511,6 @@ var options = {
 			size:	10
 		}
 	},
-	curve:	true,
 	scale:	{
 		step: 	{
 			//Размер в значениях между каждым шагом
